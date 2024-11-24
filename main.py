@@ -17,4 +17,7 @@ def get_character_frequency(text):
             frequency[char] = 1
     return frequency
 
+def get_total_words(text):
+    return len(text.split())
+
 main()
